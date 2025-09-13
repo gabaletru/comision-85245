@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <header>
+        <h1>BogÜi</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>BogÜi</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Servicio 1</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Fundada en 1982</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet praesentium magnam alias possimus nostrum
+                suscipit?</p>
+            <a href="" class="boton">Reservá acá</a>
+        </section>
+        <section class="bienvenidos">
+            <div>
+                <h2>Bienvenidos a BogÜi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet praesentium magnam alias possimus
+                    nostrum
+                    suscipit?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi libero accusantium nam
+                    quisquam, delectus omnis exercitationem, earum quam iusto atque tenetur. Facilis fugiat eveniet vero
+                    aliquid inventore quas doloribus nostrum.</p>
+            </div>
+            <img src="./img/bienvenidos.jpeg" alt="">
+        </section>
+        <section class="destacados">
+            <h2>Destacados</h2>
+            <div class="destacados-contenedor">
+                <div>
+                    <img src="./img/img-1.jpg" alt="">
+                    <h3>Titulo Terciario</h3>
+                    <a href="">Reservar</a>
+                </div>
+                <div>
+                    <img src="./img/img-2.jpg" alt="">
+                    <h3>Titulo Terciario</h3>
+                    <a href="">Reservar</a>
+                </div>
+                <div>
+                    <img src="./img/img-3.jpg" alt="">
+                    <h3>Titulo Terciario</h3>
+                    <a href="">Reservar</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://http2.mlstatic.com/D_NQ_623677-MLA91301832109_082025-OO.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://http2.mlstatic.com/D_NQ_779371-MLA91594682467_092025-OO.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://http2.mlstatic.com/D_NQ_659341-MLA91300917749_082025-OO.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="grid-galeria">
+            <div class="grid-item">
+                <img src="./img/img-1.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item">
+                <img src="./img/img-2.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item">
+                <img src="./img/img-3.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item img-4">
+                <img src="./img/img-4.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item">
+                <img src="./img/img-5.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item img-6">
+                <img src="./img/img-6.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item">
+                <img src="./img/img-7.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item img-8">
+                <img src="./img/img-8.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+            <div class="grid-item img-9">
+                <img src="./img/img-1.jpg" alt="">
+                <h3>Imagen</h3>
+            </div>
+        </section>
+    </main>
+    <footer id="pie">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
